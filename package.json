@@ -1,0 +1,22 @@
+{
+  "name": "altgen",
+  "version": "1.2.5",
+  "description": "Minecraft alts",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JBTech",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "google": "^2.1.0",
+    "moment": "^2.22.2",
+    "ms": "^0.7.3",
+    "string-format": "^2.0.0",
+    "winston": "^3.0.0"
+  }
+}
