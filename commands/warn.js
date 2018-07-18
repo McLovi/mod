@@ -35,13 +35,14 @@ module.exports.run = async (bot, message, args) => {
   if(!warnchannel) return message.reply("Couldn't find serverlog channel");
 
   warnchannel.send(warnEmbed);
-  message.reply(`<@${wUser.id}> has been banned.`)
+  message.reply(`<@${wUser.id}> has been Warned!
+He musst be Carefully, 10 Warns and he will get Banned!.`)
 
-  if(warns[wUser.id].warns == 2){
+  if(warns[wUser.id].warns == 3){
     let muterole = message.guild.roles.find(`name`, "Muted");
     if(!muterole) return message.reply("You should create Muted Role dude.");
 
-    let mutetime = "10s";
+    let mutetime = "10m";
     await(wUser.addRole(muterole.id));
     message.channel.send(`<@${wUser.id}> has been temporarily muted`);
 
