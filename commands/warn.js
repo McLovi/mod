@@ -35,7 +35,7 @@ module.exports.run = async (bot, message, args) => {
   if(!warnchannel) return message.reply("Couldn't find serverlog channel");
 
   warnchannel.send(warnEmbed);
-  return message.reply('Warned')
+  message.reply(`<@${wUser.id}> has been banned.`)
 
   if(warns[wUser.id].warns == 2){
     let muterole = message.guild.roles.find(`name`, "Muted");
