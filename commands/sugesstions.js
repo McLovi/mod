@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
     message.reply("Thanks for suggesting something!");
 const content = `**${message.author.username}#${message.author.discriminator}** (${message.author.id}) reported:\n~~-----------------------------------------------------~~\n${args}\n~~-----------------------------------------------------~~\nOn the server: **${message.guild.name}**\nServer ID: **${message.guild.id}**`;
 
-    message.guild.channels.find(`name`, "bugslog").send(`${content}`)
+    message.guild.channels.find(`name`, "suggestionslog").send(`${content}`)
 
 }
 
