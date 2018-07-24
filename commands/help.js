@@ -42,7 +42,7 @@ More Comming Soon.........!`, true)
 <warn [User] [Reason]: Warns a User
 <mute [User] [Reason]`, true)
             .setURL("https://discord.gg/tHhQcfT")
-            .addField("Join Support Server for= Support", `\nInvite Link:https://discord.gg/qaURwzc , true)
+            .addField("Join Support Server for= Support", `\nInvite Link:https://discord.gg/qaURwzc` , true)
             .setFooter(`Dev:JBTech || 2.0
 Refiller:Isaik#8749
 JustCortex#9837`);
