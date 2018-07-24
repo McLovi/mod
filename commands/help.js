@@ -23,6 +23,7 @@ module.exports.run = async (bot, message, args) => {
 <bug [bug]: Reports a Bug!
 <suggest [Suggestion]: Suggest Something!
 <ping: I wonder what this does?;)
+<google [Name] Googles Somthing!
 <invite: Invite the Bot to your Server!
 <help: Shows this Message!
 Info:VIP can Generate 95% Working Accounts! `, true)
@@ -41,7 +42,7 @@ More Comming Soon.........!`, true)
 <warn [User] [Reason]: Warns a User
 <mute [User] [Reason]`, true)
             .setURL("https://discord.gg/tHhQcfT")
-            .addField("Join Support Server for= Support", `\nInvite Link: https://discord.gg/tHhQcfT`, true)
+            .addField("Join Support Server for= Support", `\nInvite Link:https://discord.gg/qaURwzc , true)
             .setFooter(`Dev:JBTech || 2.0
 Refiller:Isaik#8749
 JustCortex#9837`);
