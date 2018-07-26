@@ -29,7 +29,7 @@ bot.on("ready", () => {
     console.log(`FreeGen has started, with ${bot.users.size}  users, in ${bot.channels.size} channels of ${bot.guilds.size} guilds.`); 
     // Example of changing the bot's playing game to something useful. `bot.user` is what the
     // docs refer to as the "botUser".
-   ${bot.users.size}.setActivity(`my Developer Isaiki;) || >help`, { type: "WATCHING" });
+    ${bot.users.size}setActivity(`my Developer JBTech in Holidays;) || >help`, { type: "WATCHING" });
  
   });
   bot.on('guildMemberAdd', member => {
