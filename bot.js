@@ -39,7 +39,7 @@ bot.on("ready", () => {
         let embed = new Discord.RichEmbed()
         .setColor('0x5C0E60')
         .setThumbnail(memberavatar)
-        .addField('User Joined', `${member} Welcome to our Community!
+        .addField('User Joined', `${member.id} Welcome to our Community!
 Please Read the Rules and be Active!`)
         .addField('Member Number',`You are ${member.guild.memberCount} Member`)
         .addField('Server', `${member.guild.name}`, true )
@@ -57,7 +57,7 @@ bot.on('guildMemberRemove', member => {
         let embed = new Discord.RichEmbed()
         .setColor('0x5C0E60')
         .setThumbnail(memberavatar)
-        .addField('User Left', `${member} has Left The Server,We wil miss you Boy :cry:`)
+        .addField('User Left', `${member.id} has Left The Server,We wil miss you Boy :cry:`)
         .addField('Member Number', `We are now just ${member.guild.memberCount} Users!`)
         .setFooter(`Made by JBTech`)
         .setTimestamp()
